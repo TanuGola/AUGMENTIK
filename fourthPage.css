@@ -61,6 +61,18 @@
     margin-left: 10px;
 }
 
+.men {
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.monoLogo {
+    height: 20px;
+}
+
 .videoAnimation {
     width: fit-content;
     box-shadow: 0px 10px 30px 20px #6161ff3f;
@@ -68,9 +80,13 @@
 
 
 .descriptionFourth {
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 30vw;
+}
+
+.active {
+    display: flex;
 }
 
 .menuBar{
@@ -97,4 +113,5 @@
 
 .menuBar > div:hover {
     background-color: rgba(60, 134, 252, 0.165);
+    border-radius: 10px;
 }
