@@ -200,8 +200,9 @@ select {
     border-bottom: 3px solid white;
 }
 
-.fropt {
+.fropt> select {
     color: white;
+    background-color: transparent;
     font-weight: 600;
 }
 
